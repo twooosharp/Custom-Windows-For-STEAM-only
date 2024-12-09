@@ -87,3 +87,5 @@ https://rufus.ie/en/
 > Winodws Managerment Instrumentation
 
 Others need to be either set to disable/manual or delete the whole thing using regedit
+
+# Once done, processes will be less than 30 but you can not reverse the change, update your driver and install new software. Please proceed with caution. 
