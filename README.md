@@ -38,3 +38,52 @@ https://rufus.ie/en/
 7. Install AMD chipset driver and GPU driver. Then install steam and other software you wanna use(discord,gog,epic,ea) **I have not tested any of those, only using steam and steam voice chat.**
 8. Run **irm "https://christitus.com/win" | iex** from https://github.com/ChrisTitusTech/winutil to debloat windows
 9. Open service and registry editor only keep these things running.
+> AMD 3D V-Cache Performance Optimizer service
+> 
+> AMD Crash Defender Service
+> 
+> Bachground Tasks Infrastructure Service
+>
+> CoreMessaging
+>
+> DCOM Server Process Launcher
+>
+> DHCP Client
+>
+> Display Policy Service
+>
+> DNS Client
+> 
+> Group Policy Client
+>
+> Local Session Manager
+>
+> Network Store Interface Service
+>
+> Plug and Play
+>
+> Power
+>
+> Remote Procedure Call(RPC)
+>
+> RPC Endpoint Mapper
+>
+> State Repository Service
+>
+> System Events Broker
+>
+> Time Broker
+>
+> User Manager
+>
+> User Profile Service
+>
+> Windows Audio
+>
+> Windows Audio Endpoint Builder
+>
+> Windows Font Cache Service
+>
+> Winodws Managerment Instrumentation
+
+Others need to be either set to disable/manual or delete the whole thing using regedit
