@@ -32,4 +32,9 @@ I recommend removing all the updates you can remove(there are many it will not l
 3. Donwload Rufus to install the iso to a USB drive.
 https://rufus.ie/en/
 
-4. Unplug your ethernet cable before installing windows 
+4. Unplug your ethernet cable before installing windows. Go throught the normal process to the home screen(Click NO product key and DO NOT sign in your microsoft account)
+5. Activate your windows using scripts from https://github.com/massgravel/Microsoft-Activation-Scripts
+6. Setting up the built-in administrative account using the command line-- **net user administrator /active:yes** And swap to the administrative account
+7. Install AMD chipset driver and GPU driver. Then install steam and other software you wanna use(discord,gog,epic,ea) **I have not tested any of those, only using steam and steam voice chat.**
+8. Run **irm "https://christitus.com/win" | iex** from https://github.com/ChrisTitusTech/winutil to debloat windows
+9. Open service and registry editor only keep these things running.
